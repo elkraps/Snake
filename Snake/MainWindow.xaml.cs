@@ -10,7 +10,7 @@ namespace Snake
     {
         public MainWindow() {
             InitializeComponent();
-            DataContext = new MainWndVM();
+            DataContext = new MainWndVM(this);
         }
     }
 }
